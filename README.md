@@ -1,2 +1,1 @@
-# react
-react 수업용
+React 기초 실습 예제 입니다.
