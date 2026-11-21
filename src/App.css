@@ -37,19 +37,35 @@ header {
 }
 
 .visual {
-    height: 200px;
+    padding: 70px 0;
     text-align: center;
-    
+    background-color: #ffb66c;
+    border-radius: 20px;
+}
+.visual p {
+    margin-bottom: 10px;
+}
+.visual h2 {
+    margin-bottom: 24px;
+    font-size: 34px;
 }
 .btn {
     border: none;
-    background-color: #431407;
+    background-color: #7c2d12;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 28px;
     border-radius: 30px;
+    font-size: 16px;
     cursor: pointer;
 }
 
+.menu {
+    padding: 50px 0;
+}
+.menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 .list {
     display: flex;
     gap: 20px;
@@ -60,9 +76,48 @@ header {
     background-color: #fff;
     padding: 30px 0;    
     text-align: center;
+    border-radius: 20px;
+    border: 3px solid #ffebd2;
 }
 .tag {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 14px;
+    left: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #ffebd2;
+    color: #d16a4d;
+    border-radius: 20px;
+}
+.menu-icon {
+    font-size: 50px;
+}
+.menu h3 {
+    font-size: 24px;
+    margin: 10px 0 6px;
+}
+.btn-cart {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 2px solid #7c2d12;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #7c2d12;
+}
+.btn-cart:hover {
+    background-color: #7c2d12;
+    color: #fff;
+}
+
+footer {
+    padding: 22px;
+    background-color: #7c2d12;
+    color: #ffedd5;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.8;
 }

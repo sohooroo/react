@@ -9,7 +9,7 @@ function App() {
 
   return (
     <main className='container'>
-      <Header logo={'🥐bread day'} />
+      <Header logo={'🥐 bread day'} />
       <Visual
         sub={'매일 아침 7시, 갓 구운 빵'}
         title={'오늘도 따듯한 빵 한 조각'}
